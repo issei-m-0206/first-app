@@ -22,3 +22,21 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+### usersテーブル
+|Column|Type|Options|
+|------|----|-------|
+|name|integer|null: false|
+
+### Association
+- has_many :comments
+
+
+### commentsテーブル
+|Column|Type|area_id|
+|------|----|-------|
+|title|string|null: false|
+|body|text||
+|area_id|integer|null: false|
+
+### Association
+- belongs_to :user
