@@ -1,0 +1,21 @@
+.wrapper  
+  .header
+    .header__list
+      .header__list__user-name
+        issei
+      .header__list__btn  
+        =link_to "/", class: "header__list__btn__1" do
+          logout
+        =link_to "/", class: "header__list__btn__2" do
+          edit
+  .contents
+    .contents__box
+      =link_to "/", class: "contents__box__btn-1" do
+        =icon('fas', 'map-marked-alt')
+        TripLog
+      =link_to "/", class: "contents__box__btn-2" do  
+        =icon('fas', 'map-pin')     
+        NextTrip
+      =link_to "/", class: "contents__box__btn-3" do
+        =icon('fas', 'users')
+        Tourist
