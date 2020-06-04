@@ -31,7 +31,7 @@ Things you may want to cover:
 - has_many :comments
 
 
-### commentsテーブル
+### tweetsテーブル
 |Column|Type|area_id|
 |------|----|-------|
 |title|string|null: false|

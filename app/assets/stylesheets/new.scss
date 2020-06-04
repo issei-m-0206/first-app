@@ -1,0 +1,20 @@
+.header {
+  height: 50px;
+  width: 100vw;
+  text-align: center;
+  line-height: 50px;
+}
+
+#map-container {
+  text-align: center;
+  
+}
+
+.footer {
+  &__list {
+    &__btn {
+      text-decoration: none;
+      padding-left: 30px;
+    }
+  }
+}
