@@ -1,7 +1,9 @@
 @import "reset";
+@import "config/colors";
 @import "font-awesome-sprockets";
 @import "font-awesome";
 @import "modules/tweets";
 @import "modules/index";
-
+@import "modules/user";
+@import "modules/flash";
 // @import "japan_map"
