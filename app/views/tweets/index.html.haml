@@ -1,0 +1,22 @@
+.wrapper1  
+  .header1
+    .header1__list1
+      ◯◯県の投稿
+      .header1__list1__box
+        =link_to "/posts/new", class: "header__list1__box__map" do  
+          map
+        =link_to "/", class: "header__list1__box__mypage" do 
+          mypage
+  .main1
+    .main1__tweets
+      - @tweets.each do |tweet|
+        .main1__tweets__title
+        =tweet.title
+        .main1__tweets__body
+        =tweet.body
+        .main1__tweets__image
+        
+  .footer1
+    .footer1__form-box
+      .footer1__form-box__form
+      .footer1__form-box__btn
