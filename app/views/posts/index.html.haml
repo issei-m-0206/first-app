@@ -2,11 +2,10 @@
   .header
     .header__list
       .header__list__user-name
-        issei
+        = current_user.name
       .header__list__btn  
-        =link_to "/", class: "header__list__btn__1" do
-          logout
-        =link_to "/", class: "header__list__btn__2" do
+        = link_to "logout", destroy_user_session_path, method: :delete, class: 'logout'
+        =link_to edit_user_path(current_user) do
           edit
   .contents
     .contents__box
