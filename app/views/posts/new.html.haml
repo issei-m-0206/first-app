@@ -128,9 +128,13 @@
     });
   </script>
 .header
+  旅の思い出
 
 #map-container 
 
 .footer
   .footer__list
-  
+    =link_to "/", class: "footer__list__btn" do  
+      =icon('fas','undo')
+      マイページ
+
