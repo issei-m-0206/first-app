@@ -1,0 +1,52 @@
+ .wrapper1 { 
+    background-color: skyblue;
+    height: 100vh;
+    width: 100vw;
+  .header1 {
+    &__list1 {     
+      height: 100px;
+      width: 100vw;
+      text-align: center;
+      &__box {
+        display: flex;
+        justify-content: space-around;
+          &__map {
+
+          }
+          &__mypage {
+
+          }
+      }
+    }
+  }
+  .main1 {
+    height: calc(100% - 200px);
+    overflow: scroll;
+    &__tweets {
+      color: snow;
+      margin: 20px;
+      &__title {
+        margin-top: 20px;
+      }
+      &__body {
+        border-bottom: snow solid 1px;
+      }
+      &__image {
+
+      }
+    }
+  }
+  .footer1 {
+    height: 100px;
+    &__form-box {
+      height: 100%;
+      background-color: springgreen;
+      &__form {
+
+      }
+      &__btn {
+
+      }
+    }
+  }
+ }

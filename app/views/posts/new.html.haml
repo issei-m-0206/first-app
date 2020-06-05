@@ -4,7 +4,7 @@
   <script>
     $(function(){ 
       var areaLinks = {
-        1:"/",
+        1:"/tweets",
         2:"/",
         3:"/",
         4:"/",
@@ -121,7 +121,7 @@
         fontSize : 11,
         fontShadowColor : "#fff",
         onSelect : function(data){
-            alert(data.name);
+            //alert(data.name);
             location.href = areaLinks[data.area.code];
         }  
       });
@@ -137,5 +137,4 @@
     =link_to "/", class: "footer__list__btn" do  
       =icon('fas','undo')
       マイページ
-
 
